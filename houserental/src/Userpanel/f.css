@@ -1,0 +1,108 @@
+/* Main Container */
+.main-book {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    padding-top: 100px;
+  }
+
+  /* Heading */
+  .h1two {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Card Container */
+  .two-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+    margin-top: 20px; 
+  }
+  
+ 
+  .apartment-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .apartment-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Apartment Image */
+  .apartment-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  /* Apartment Details */
+  .apartment-details {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .apartment-name {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 8px;
+  }
+  
+  .apartment-price {
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .apartment-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Book Now Button */
+  .view-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .view-button:hover {
+    background-color: #2980b9;
+  }
+  /* Navbar Style for Apartment Booking Title */
+.navbar {
+    background-color: #3498db; /* Blue Background */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  

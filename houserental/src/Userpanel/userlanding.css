@@ -1,0 +1,114 @@
+/* Main Flex Container */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #f4f4f9;
+}
+
+.flex-item {
+  width: 45%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flex-item h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+
+.flex-item h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.property-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.property-card {
+  padding: 50px;
+  background: #e1f5fe;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.property-card h3 {
+  font-size: 24px;
+  color: #00796b;
+}
+
+.property-card p {
+  font-size: 16px;
+  color: #333;
+}
+
+.btnu, .cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #00796b80;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.btnu:hover, .cta-button:hover {
+  background-color: #004d40;
+}
+
+/* Navbar */
+.navbar-user {
+  background-color: #00796b;
+  padding: 20px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Footer */
+.footer {
+  background-color: #00796b;
+  padding: 20px;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
